@@ -1,0 +1,11 @@
+3 "a";
+group {
+    some <word>;
+    [1-6] "hello"; |or| 1 to 6 "hello";
+};
+
+<space>;
+
+->
+
+a{3}(?:\w+hello{1,6})
